@@ -1,0 +1,297 @@
+:root{
+    --trans: .3s linear;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+}
+
+/* header */
+
+header{
+    width: 90%;
+    height: 90vh;
+    border-radius: 10px;
+    margin: auto;
+    background:url("/assets/img/eco.jpg")no-repeat center/cover;
+}
+header nav h3{
+    margin-left: 2rem;
+    letter-spacing: 0.9rem;
+    font-size: 2.1rem;
+    cursor: default;
+}
+
+/* nav */
+
+header nav{
+    width: 95%;
+    height: 9%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    padding:3px 28px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+header nav ul li a:hover{
+    color: gray;
+}
+
+header nav ul li:nth-child(5){
+    background-color: black;
+    border-radius: 1.3rem;
+    padding:8px 1rem;
+}
+
+header nav ul li:nth-child(5) a{
+    color:white ;
+}
+
+header nav ul li:nth-child(5):hover{
+    background-color:gray ;
+    cursor: pointer;
+    transition: var(--trans);
+}
+
+/* content-header */
+
+header .cont-header{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    cursor: default;
+    top: 0;
+}
+
+header .cont-header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+header .cont-header-box{
+    width: 45%;
+    height: auto;
+    margin-left: 55%;
+    text-align: end;
+}
+
+header .cont-header-box-text{
+    letter-spacing: 1px;
+    margin: 1rem 2rem;
+}
+
+header .cont-header h1{
+    margin: 2rem;
+    font-size: 2.7rem;
+}
+header .cont-header h1::first-letter{
+    font-size: 5rem;
+    font-weight: 1000;
+}
+
+header .cont-header p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* travel-box */
+
+header .travel-box{
+    position: relative;
+    width: 90%;
+    height: 55%;
+    margin: auto;
+    top: 0px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+header .travel-box h4{
+    padding:0.5rem 0px 0px 2rem;
+    letter-spacing: 4px;
+    font-weight: 1000;
+    font-size:1.3rem ;
+    text-align: center;
+    cursor: default;
+}
+
+header .travel-box .cards{
+    width: auto;
+    height: 90%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header .travel-box .cards .card{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0px 1.9rem;
+}
+
+header .travel-box .cards .card h3{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: default;
+}
+
+header .travel-box .cards .card h3 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+header .travel-box .cards .card img{
+    width: 100%;
+    height: 67%;
+    border-radius: 10px;
+}
+header .travel-box .cards .card .img:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 19px black;
+    transition: var(--trans);
+}
+
+header .travel-box .cards .card .btn-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+}
+
+header .travel-box .cards .card .btn-card h5{
+    font-size: 0.9rem;
+    cursor: default;
+}
+header .travel-box .cards .card .btn-card a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius:1.3rem;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: var(--trans);
+    cursor: pointer;
+}
+
+header .travel-box .cards .card .btn-card a:hover{
+    background-color: gray;
+}
+
+/* main */
+
+main{
+    width: 90%;
+    height: 900px;
+    border: 1px solid black;
+    margin: 8rem auto;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    background:#ffa952;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 800;
+    font-size: 2.1rem;
+    padding: 2.2rem;
+}
+
+footer p{
+    text-align: center;
+    width: 350px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2.2rem;
+}
+
+footer .input{
+    box-shadow: 0px 3px 20px -1px black;
+    border-radius:20px;
+}
+
+footer .input input{
+    padding: 12px 19px;
+    border: none;
+    outline: none;
+    font-size: 13px ;
+    border-radius:20px 0px 0px 20px;
+}
+
+footer .input button{
+    padding: 13px 30px ;
+    border: none ;
+    outline: none;
+    font-size: 12px ;
+    border-radius:0px 20px 20px 0px ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: var(--trans);
+}
+
+footer .input button:hover{
+    background-color: gray;
+}
+
+footer ul{
+    list-style: none;
+    margin: 2.2rem;
+    display: flex;
+}
+
+footer ul li{
+    text-align: center;
+    margin:2.2rem 30px 2.2rem ;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+footer ul li h6{
+    font-size: 11px;
+    font-weight: 600;
+    max-width:120px;
+    border-top: 1px solid black;
+    line-height: 18px;
+    margin: 0;
+}
+
+
+
+
