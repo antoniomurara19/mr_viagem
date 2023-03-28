@@ -74,6 +74,10 @@ header nav ul li:nth-child(5):hover{
     transition: var(--trans);
 }
 
+.menu{
+    display: none;
+}
+
 /* content-header */
 
 header .cont-header{
@@ -208,10 +212,70 @@ header .travel-box .cards .card .btn-card a:hover{
 /* main */
 
 main{
-    width: 90%;
+    width: 94%;
     height: 900px;
     border: 1px solid black;
-    margin: 8rem auto;
+    border-radius: 10px;
+    margin: 4rem auto;
+    background: url(/assets/img/andromeda.jpg) center center/cover no-repeat;
+}
+
+.cont-main{
+    margin-top: 5rem;
+    color: white;
+}
+
+.cont-main h2{
+    border: 1px solid lightskyblue;
+    padding: 0px 2rem 1rem 0px;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: default;
+}
+
+.cont-main h2::first-letter{
+    font-size: 4.5rem;
+}
+
+.cont-main-box{
+    padding: 1.7rem 1rem 1rem 0px;
+    border: 1px solid white;
+    display: flex;
+}
+
+.cont-main-box .video-main-box{
+    width: 2000px;
+    height: 350px;
+    display: flex;
+    margin: 1rem;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.cont-main-box-text{
+    margin:1rem;
+}
+
+.cont-main-box-text h3{
+    width: 100%;
+    padding: 0px 2rem 1rem 0px;
+    font-size: 2.2rem;
+    text-align: center;
+    cursor: default;
+    border: 1px solid rgb(255, 0, 43);
+    text-align: end;
+}
+
+.cont-main-box-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid yellow;
+    width: 100%;
+    text-align: end;
+}
+
+.cont-main-box-text p::first-letter{
+    font-size: 2rem;
 }
 
 /* footer */
@@ -219,7 +283,7 @@ main{
 footer{
     width: 100%;
     height: auto;
-    background:#ffa952;
+    background:#fff617;
     display: flex;
     flex-direction: column;
     align-items: center;
