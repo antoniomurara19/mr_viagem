@@ -213,11 +213,12 @@ header .travel-box .cards .card .btn-card a:hover{
 /* main */
 main{
     width: 94%;
-    height: 1500px;
+    height: 1800px;
     border: 1px solid black;
     border-radius: 10px;
     margin: 4rem auto;
-    background: url(/assets/img/andromeda.jpg) center center/cover no-repeat;
+    color: rgba(255, 255, 255, 0.8);
+    background: url(/assets/img/main-back.jpg) center center/cover no-repeat;
 }
 /* andromeda */
 .cont-main-and{
