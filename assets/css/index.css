@@ -324,7 +324,7 @@ main{
     font-size: 2rem;
 }
 
-/* carosel */
+/* carosel pilar-da-criacao */
 
 .cont-main-box-pi-galeria{
     width:640px ;
@@ -379,6 +379,99 @@ main{
     }
     90%{
         left:-2560px;
+    }
+    99.99%{
+        left:0px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+/* terra-nature */
+.cont-main-terra{
+    color: white;
+}
+.cont-main-terra h2{
+    text-align: center;
+    cursor: default;
+    border: 1px solid orangered;
+    padding: 0px 2rem 1rem 0px;
+    font-size: 2.5rem;
+}
+.cont-main-box-terra{
+    display: flex;
+}
+.cont-main-box-text-terra{
+    width: 60%;
+    padding: 5rem 1rem 1rem 1rem;
+    border: 1px solid purple;
+}
+
+.cont-main-box-text-terra h3{
+    width: 100%;
+    padding: 0px 0px 1rem 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+    cursor: default;
+    border: 1px solid rgb(255, 0, 43);
+}
+
+.cont-main-box-text-terra p{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: start;
+}
+
+/* carosel terra-nature */
+.cont-main-box-terra-galeria{
+    width:620px ;
+    height:413px;
+    margin:100px auto;
+    overflow: hidden;
+}
+.cont-main-box-terra-galeria .cont-main-box-terra-carosel{
+    display: flex;
+    width: 5580px;
+    height: 413px;
+}
+.cont-main-box-terra-galeria .cont-main-box-terra-carosel img{
+    position: relative;
+    left: 0px;
+    animation: slide_2 36s ease-in-out infinite running;
+ }
+
+ @keyframes slide_2 {
+    0%{
+        left:0px;
+    }
+    10%{
+        left:-620px;
+    }
+    20%{
+        left:-1240px;
+    }
+    30%{
+        left:-1860px;
+    }
+    40%{
+        left:-2480px;
+    }
+    50%{
+        left:-3100px;
+    }
+    60%{
+        left:-3720px;
+    }
+    70%{
+        left:-4340px;
+    }
+    80%{
+        left:-4960px;
+    }
+    90%{
+        left:-5580px;
     }
     99.99%{
         left:0px;
