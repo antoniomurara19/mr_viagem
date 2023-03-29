@@ -177,9 +177,10 @@ header .travel-box .cards .card img{
     height: 67%;
     border-radius: 10px;
 }
+
 header .travel-box .cards .card .img:hover{
     transform: scale(1.2);
-    box-shadow: 3px 3px 19px black;
+    box-shadow: 5px 5px 19px black;
     transition: var(--trans);
 }
 
@@ -210,22 +211,21 @@ header .travel-box .cards .card .btn-card a:hover{
 }
 
 /* main */
-
 main{
     width: 94%;
-    height: 900px;
+    height: 1500px;
     border: 1px solid black;
     border-radius: 10px;
     margin: 4rem auto;
     background: url(/assets/img/andromeda.jpg) center center/cover no-repeat;
 }
-
-.cont-main{
+/* andromeda */
+.cont-main-and{
     margin-top: 5rem;
     color: white;
 }
 
-.cont-main h2{
+.cont-main-and h2{
     border: 1px solid lightskyblue;
     padding: 0px 2rem 1rem 0px;
     font-size: 2.5rem;
@@ -233,30 +233,31 @@ main{
     cursor: default;
 }
 
-.cont-main h2::first-letter{
+.cont-main-and h2::first-letter{
     font-size: 4.5rem;
 }
 
-.cont-main-box{
+.cont-main-box-and{
     padding: 1.7rem 1rem 1rem 0px;
     border: 1px solid white;
     display: flex;
 }
 
-.cont-main-box .video-main-box{
+.cont-main-box-and .video-main-box{
     width: 2000px;
     height: 350px;
     display: flex;
     margin: 1rem;
     border: 3px solid white;
     border-radius: 10px;
+    box-shadow:5px 5px 19px #430f58;
 }
 
-.cont-main-box-text{
-    margin:1rem;
+.cont-main-box-text-and{
+    margin:3rem 1rem 0px 0px;
 }
 
-.cont-main-box-text h3{
+.cont-main-box-text-and h3{
     width: 100%;
     padding: 0px 2rem 1rem 0px;
     font-size: 2.2rem;
@@ -266,7 +267,7 @@ main{
     text-align: end;
 }
 
-.cont-main-box-text p{
+.cont-main-box-text-and p{
     font-size: 1rem;
     font-weight: 400;
     border: 1px solid yellow;
@@ -274,8 +275,116 @@ main{
     text-align: end;
 }
 
-.cont-main-box-text p::first-letter{
+.cont-main-box-text-and p::first-letter{
     font-size: 2rem;
+}
+/* pilar-da-criacao */
+
+.cont-main-pi{
+    color: white;
+}
+.cont-main-pi h2{
+    text-align: center;
+    cursor: default;
+    border: 1px solid orangered;
+    padding: 0px 2rem 1rem 0px;
+    font-size: 2.5rem;
+}
+.cont-main-pi h2::first-letter{
+    font-size: 4.5rem;
+}
+.cont-main-box-pi{
+    display: flex;
+}
+.cont-main-box-text-pi{
+    width: 60%;
+    padding: 5rem 1rem 1rem 1rem;
+    border: 1px solid white;
+}
+
+.cont-main-box-text-pi h3{
+    width: 100%;
+    padding: 0px 0px 1rem 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+    cursor: default;
+    border: 1px solid rgb(255, 0, 43);
+}
+
+.cont-main-box-text-pi p{
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid yellow;
+    width: 100%;
+    text-align: start;
+}
+
+.cont-main-box-text-pi p::first-letter{
+    font-size: 2rem;
+}
+
+/* carosel */
+
+.cont-main-box-pi-galeria{
+    width:640px ;
+    height:400px;
+    margin:100px auto;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: 5px 5px 19px white;
+}
+
+.cont-main-box-pi-galeria .cont-main-box-pi-carosel{
+    display: flex;
+    width: 3200px ;
+    height: 400px;
+}
+
+.cont-main-box-pi-galeria .cont-main-box-pi-carosel img{
+   position: relative;
+   left: 0px;
+   animation: slide 13s ease-in-out infinite running;
+}
+
+@keyframes slide {
+    0%{
+        left:0px;
+    }
+    10%{
+        left:0px;
+    }
+    20%{
+        left:-640px;
+    }
+    30%{
+        left:-640px;
+    }
+    40%{
+        left:-1280px;
+    }
+    50%{
+        left:-1280px;
+    }
+    60%{
+        left:-1920px;
+    }
+    70%{
+        left:-1920px;
+    }
+    80%{
+        left:-2560px;
+    }
+    90%{
+        left:-2560px;
+    }
+    99.99%{
+        left:0px;
+    }
+    100%{
+        left: 0px;
+    }
 }
 
 /* footer */
