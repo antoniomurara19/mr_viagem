@@ -132,10 +132,8 @@ header .cont-header h1{
         animation-timing-function: ease-in;
     }
     72%{
-        -webkit-transform: translateY(0);
-                transform: translateY(0);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        transform: translateY(0);
+        animation-timing-function: ease-out;
     }
     81%{
         transform: translateY(-28px);
@@ -201,6 +199,7 @@ main ul{
 .galeria{
     visibility: hidden;
     opacity: 0;
+    height: 10px;
 }
 .galeria:target{
     opacity: 1;
