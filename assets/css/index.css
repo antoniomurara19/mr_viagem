@@ -20,6 +20,7 @@ header{
     border-radius: 10px;
     margin: auto;
     background:url("/assets/img/eco.jpg")no-repeat center/cover;
+    border: 5px solid black;
 }
 header nav h3{
     margin-left: 2rem;
@@ -59,6 +60,10 @@ header nav ul li a{
 
 header nav ul li a:hover{
     color: gray;
+}
+
+header nav ul li:nth-child(1) a{
+    font-weight: 1000;
 }
 
 header nav ul li:nth-child(5){
@@ -174,7 +179,7 @@ header .travel-box{
     height: 60%;
     margin: auto;
     top: 0px;
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 8px;
     background-color:rgba(255, 255, 255, 0.8);
 }
@@ -259,7 +264,7 @@ header .travel-box .cards .card .btn-card a:hover{
 main{
     width: 94%;
     height: 1800px;
-    border: 3px solid black;
+    border: 7px solid black;
     border-radius: 10px;
     margin: 4rem auto;
     color: rgba(255, 255, 255, 0.8);
