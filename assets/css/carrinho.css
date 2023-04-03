@@ -62,6 +62,10 @@ header nav ul li a:hover{
     color: gray;
 }
 
+header nav ul li:nth-child(6) a{
+    font-weight: 1000;
+}
+
 header nav ul li:nth-child(5){
     background-color: black;
     border-radius: 1.3rem;
@@ -83,65 +87,6 @@ header nav ul li:nth-child(5):hover{
 }
 
 /* main */
-
-.register{
-    width: 90%;
-    margin:4rem auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;    
-}
-
-label{
-    color: black;
-    font-size: 1.2rem;
-    margin: 0.3rem;
-    font-weight: 600;
-    display: block;
-}
-.input-text{
-    padding: 0.4rem;
-    border-radius: 0.3rem;
-    font-weight: 800;
-    width: 12rem;
-    color: black;
-    border: 2px solid blakc;
-    background-color: transparent;
-}
-
-button{
-    display: block;
-    margin:1.5rem auto;
-    padding: 1.3rem;
-    background-color: transparent;
-    color: black;
-    font-weight: 1000;
-    border-radius: 10px
-}
-
-button:hover{
-    background-color: darkblue;
-    transition: var(--trans);
-    transform: scale(1.1);
-    color: white;
-    cursor: pointer;
-}
-
-form{
-    width: 30%;
-    margin: auto;
-    text-align: center;
-}
-
-fieldset{
-   padding: 1rem;
-   border: 3px solid black;
-}
-
-legend{
-    font-size:2rem ;
-    padding: 0px 1rem 0px 1rem;
-}
 
 /* footer */
 

@@ -176,7 +176,7 @@ main h2{
     text-align: center;
     animation: bounce-in-top 1.4s both;
     cursor: default;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .content{
@@ -200,6 +200,7 @@ main h2{
 
 .heaven{
     flex-direction: column;
+    justify-content: center;
     width: 50%;
     margin: 2rem;
 }
@@ -216,6 +217,28 @@ main h2{
 .heaven p::first-letter{
     font-size: 2rem;
     font-weight: 300;
+}
+
+.heaven button{
+    display: block;
+    margin:3rem auto;
+    padding: 1.3rem;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.heaven button:hover{
+    background-color: green;
+    transition: var(--trans);
+    transform: scale(1.1);
+}
+
+.heaven button a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+    font-weight:1000;
 }
 
 /* carosel */
