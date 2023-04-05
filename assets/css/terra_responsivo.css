@@ -52,7 +52,7 @@
     }
 }
 
-@media (min-width:425px) and (max-width:768px) {
+@media (min-width:375px) and (max-width:768px) {
     /* nav */
     header nav ul{
         margin: auto;
