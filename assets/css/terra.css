@@ -187,6 +187,7 @@ main h2::first-letter{
     width: 95%;
     border: 4px solid black;
     margin: auto;
+    box-shadow: 20px 10px 30px grey;
 }
 
 .list-image{

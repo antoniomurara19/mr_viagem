@@ -44,6 +44,7 @@ header nav{
 header nav ul{
     list-style: none;
     display: flex;
+    margin:0.3rem 0px;
 }
 
 header nav ul li{
@@ -85,7 +86,7 @@ header nav ul li:nth-child(5):hover{
 /* main */
 
 .register{
-    width: 90%;
+    width: 100%;
     margin:4rem auto;
     display: flex;
     flex-direction: row;
@@ -109,7 +110,7 @@ label{
     background-color: transparent;
 }
 
-button{
+main button{
     display: block;
     margin:1.5rem auto;
     padding: 1.3rem;

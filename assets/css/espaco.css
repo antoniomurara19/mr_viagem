@@ -187,6 +187,7 @@ main h2::first-letter{
 .universe{
     width: 95%;
     border: 4px solid black;
+    box-shadow: 15px 10px 40px grey;
     margin: auto;
 }
 

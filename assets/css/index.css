@@ -262,6 +262,9 @@ header .travel-box .cards .card .btn-card a:hover{
 }
 
 /* main */
+.mq-andromeda-img{
+    display: none;
+}
 main{
     width: 94%;
     height: 1800px;
