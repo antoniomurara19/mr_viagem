@@ -69,7 +69,7 @@ header nav ul li:nth-child(1) a{
 header nav ul li:nth-child(5){
     background-color: black;
     border-radius: 1.3rem;
-    padding:8px 1rem;
+    padding:7px 1rem;
 }
 
 header nav ul li:nth-child(5) a{
@@ -289,7 +289,6 @@ main{
 }
 
 .cont-main-box-and{
-
     display: flex;
     margin:3rem 1rem 0px 1rem;
 }
